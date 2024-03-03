@@ -1,9 +1,11 @@
+import { Box } from '@mui/material'
+
 const UserItem = ({ user }: any) => {
   return (
-    <div>
+    <Box>
       <h1>{user.email}</h1>
       <button>Delete</button>
-    </div>
+    </Box>
   )
 }
 
